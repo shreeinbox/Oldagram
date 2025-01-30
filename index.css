@@ -1,0 +1,117 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Source Sans 3", serif;
+    background-color: #EDEDED;
+    width:375px;
+}
+
+.header{ 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #C6C6C6;
+    padding: 10px;
+    background-color: white;
+}
+.logo{
+    width: 127px;
+    height: 50px;
+}
+.authorProfile, .userProfile{
+    width: 34px;
+    height:34px;
+    border-radius: 25px;
+}
+/* .userProfile{
+    float:right;
+    text-align: center;
+} */
+/* .authorProfile{
+    float:left;
+} */
+.authorSection, .imageSec, .post-body, .post-likes {
+    background-color: white;
+}
+.authorSection{
+    padding-top: 10px;
+    padding-left: 10px;
+    display:flex;
+    align-items: center;
+}
+
+.authorDetails{
+    padding-left: 10px;
+    color:#000000;
+}
+
+.fullName{
+    margin:0;
+    font-weight: 700;
+    font-size:13px;
+}
+.location{
+    margin:0;
+    font-weight: 400;
+    font-size:12px;
+}
+/* .post-body{
+    font-size: 13px;
+    line-height: 16.34px;
+    text-align: left;
+} */
+
+.post-image{
+    margin-top: 5px;
+    width: 375px;
+    height: 375px;
+}
+
+.post-icons{
+    padding-top : 10px;
+    padding-left: 10px;
+    width: 104.34px;
+    height: 22.13px;
+    display:flex;
+    justify-content: space-between;
+}
+
+/* .icon-heart{
+    width: 23.3px;
+} */
+
+/* .icon-comment{
+    width: 22.38px;
+    height: 18.65px;
+    top: 454.08px;
+}
+.icon-share{
+    width: 18.65px;
+    height: 18.65px;
+} */
+.icon-heart:focus, .icon-comment:focus, .icon-share:focus,
+.icon-heart:hover, .icon-comment:hover, .icon-share:hover{
+    opacity: 0.5;
+}
+.likes-count, .username{
+    font-weight: 700;
+    padding-left:10px;
+    padding-top: 10px;
+    font-size:12px;
+    margin:0;
+    
+}
+/* .username{
+    
+    padding-bottom:15px;
+    
+} */
+.caption{
+    /* font-weight: 400; */
+    padding-bottom:10px;
+    font-size:12px;
+    
+}
+.post-likes{
+    border-bottom: 2px solid #C6C6C6;
+}
